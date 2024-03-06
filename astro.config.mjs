@@ -10,13 +10,14 @@ import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gianmarco.xyz/",
+  site: "https://axza.github.io",
+  //base: "axell_de-astro",
   integrations: [
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://gianmarco.xyz/sitemap-index.xml",
-        "https://gianmarco.xyz/sitemap-0.xml",
+        "https://axza.github.io/sitemap-index.xml",
+        "https://axza.github.io/sitemap-0.xml",
       ],
     }),
     solidJs(),
