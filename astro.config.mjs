@@ -11,7 +11,7 @@ import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: "https://axza.github.io",
-  base: "axell_de-astro",
+  base: "/axell_de-astro",
   integrations: [
     sitemap(),
     robotsTxt({
